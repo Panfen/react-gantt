@@ -4,7 +4,7 @@
 
 
 
-![gantt](/Users/panjifei/Documents/Test/reat_gantt/src/img/gantt.png)
+![gantt](https://static.aistarfish.com/front-release/file/F2021062414192432300004344.gantt.png)
 
 特点：
 
