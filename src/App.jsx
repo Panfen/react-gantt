@@ -9,19 +9,20 @@ export default function App() {
   // 单个step信息
   const [step, setStep] = useState({});
 
-  const onInputChange = useCallback((type, value) => {
+  const onInputChange = (type, value) => {
+    console.log(type, value)
     setStep({
       ...step,
       [type]: value
     })
-  }, [])
+  }
 
   function onAddStep() {
     setSteps(pre => ([...steps, {color: '#b8eaf6', ...step}]));
   }
     
   return <div className="gantt-container">
-    {console.log(1)}
+    {console.log(steps)}
     <div className="add-wrap">
       <Input className="step-text" onChange={e => onInputChange('text', e.target.value)} />
       <Input defaultValue="#b8eaf6" type="color" className="step-color" onChange={e => onInputChange('color', e.target.value )} />
