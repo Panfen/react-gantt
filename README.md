@@ -3,7 +3,6 @@
 一款基于React实现的简单的甘特图
 
 
-
 ![gantt](https://static.aistarfish.com/front-release/file/F2021062414192432300004344.gantt.png)
 
 特点：
